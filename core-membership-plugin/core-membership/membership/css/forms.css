@@ -1,0 +1,13 @@
+.buser_form label { display: block; float: left; width: 130px; }
+.buser_form input[type="text"], .buser_form input[type="password"],
+.buser_form input[type="email"] {
+	padding: 4px 8px;
+	background: #f0f0f0;
+	border: 1px solid #ccc;
+}
+.buser_form input[type="text"]:focus, .buser_form input[type="password"]:focus,
+.buser_form input[type="email"]:focus {
+	border-color: #aaa;
+}
+ 
+.buser_errors { padding: 8px; border: 1px solid #f50; margin: 0 0 15px; }

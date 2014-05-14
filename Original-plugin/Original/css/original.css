@@ -1,0 +1,94 @@
+label.error{
+    color: red;
+}
+
+input.large-text, textarea.large-text
+{
+	width: 81%;
+	
+	    }
+
+input.large-text
+{min-height:30px;}
+
+textarea.large-text
+{min-height:65px;}
+
+.field-align
+{display:list-item;
+ margin:10px 0px 0px 0px;}
+	
+label.default-field
+{
+vertical-align:top;
+display: inline-block;
+float: left;
+margin-top:10px;
+min-width: 125px;
+}	
+ 
+label.error
+{ display: block;
+    float: none;
+	color: #FF0000;
+	cursor: text;
+	font-size: 0.9em;}
+	
+.inside label.error
+{padding-left:125px;}
+
+.inside label.default-field:first-child
+{margin-top:0px;}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"]
+{height:30px !important;}
+
+.chosen-container-multi .chosen-choices
+{background-image:none !important;}
+
+
+.chosen-container .chosen-results li.highlighted
+{background-color:#ccc !important;
+background-image:none !important;}
+
+.chosen-container-active .chosen-choices
+{border:solid 1px #ccc !important;}
+/* temp css */
+
+.type_column{
+}
+
+.content_block{
+}
+
+.content_block div{
+}
+
+.required_field {
+    color: #FF0000;
+    display: inline;
+    font-size: 17px;
+    padding-right: 2px;
+    position: relative;
+}
+
+
+/*-------------------------------------------------6-2-2014 start-------------------------*/
+
+#auction1_container div{ float:right;}
+
+#dt-custom-fields_auction_result input{ margin:6px 0;}
+
+#dt-custom-fields_auction_result input:last-child{ margin:6px 0 10px;}
+
+#dt-custom-fields_auction_result .inside div { border-bottom:1px solid #eee;}
+
+#dt-custom-fields_auction_result .inside div div{ border:none; float:right;}
+
+#dt-custom-fields_auction_result .inside div div input{  border: medium none;
+    font-size: 11px;
+    padding: 0 5px;}
+	
+#dt-custom-fields_dimensions .inside input { display:inline-block; float:left; margin:0 10px 0 0;}	
+/*-------------------------------------------------6-2-2014 stop-------------------------*/
+
